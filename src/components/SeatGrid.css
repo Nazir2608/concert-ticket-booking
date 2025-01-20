@@ -1,0 +1,33 @@
+.seat-grid {
+  display: grid;
+  gap: 10px;
+}
+
+.seat-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.seat {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.seat.available {
+  background-color: #d4edda; /* Green for available seats */
+}
+
+.seat.selected {
+  background-color: #ffc107; /* Yellow for selected seats */
+}
+
+.seat.booked {
+  background-color: #dc3545; /* Red for booked seats */
+  cursor: not-allowed;
+}
