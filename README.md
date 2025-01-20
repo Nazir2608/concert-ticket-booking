@@ -116,7 +116,8 @@ Make sure you have **Node.js** and **npm** installed on your machine. You can do
    git clone https://github.com/Nazir2608/concert-ticket-booking.git
 Navigate to the project directory:
 
-cd diljit-concert-ticket-booking
+cd concert-ticket-booking
+
 Install dependencies:
 npm install
 Start the development server:
@@ -132,5 +133,7 @@ Create a new branch for your feature (e.g., feature/my-feature).
 Commit your changes.
 Push the changes to your fork.
 Submit a pull request explaining your changes.
+
 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
